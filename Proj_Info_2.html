@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio_YuchenLiu</title>
+  <link rel = "stylesheet" href="Page.css">
+</head>
+<body background="bg.jpeg">
+
+    <div class="nav">
+        <b>MY PORTFOLIO</b>
+        <a href = index.html>Bio</a>
+        <a href = Project.html>Project</a>
+        <a href = Experience.html>Experience</a>
+        <a href = Contact.html>Contact</a>
+        <a href = CV.pdf>Download My Resume</a>
+    </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="side_blank"></div>
+      <div class="content">
+          <h3>Deep Learning Based Panoramic Image Stitching</h3>
+          <p>Nowadays, various VR applications are in great demand for panoramic images, but the shooting
+              range of conventional cameras is limited. What’s more, there are just a few people do research in
+              this area. However, it has wide application and need settling urgently at present.
+          </p>
+          <p>To resolve this contradiction, we came up with the ideas of panoramic image stitching technology
+              base on deep learning technology. We make use of cameras from different angles to get images or
+              videos and use deep learning based keypoints splice technology to stitch these image or video into
+              one panorama image or video. Scale-space representation is used within the network to extract
+              keypoints at different levels. Thus, our project is valuable for the current market demand.
+          </p>
+          <p>The image below is the process of stitching pictures with keypoints matching.</p>
+          <p style="text-align: center"><img src = cv1.jpeg alt="keypoints matching"></p>
+          <p>In this research, we mainly use the following methods to achieve panoramic image stitching.</p>
+          <p>• Optimized from the original manual algorithm, and improved the speed and memory through the deep learning method to
+            realize the real-time stitching of images, videos and real-time panoramic images, which was innovative and aimed at the
+            current shortage and urgently needs to be solved
+          </p>
+          <p>• Used deep learning methods to build models, used GNN to extract and match keypoints, and used training sets to monitor
+            keypoints, extract descriptors and other operations for training
+          </p>
+          <p>• Utilized a homography matrix to splice the extracted feature points, then optimized the edge of the stitching result
+          </p>
+          <p>Following is the panorama image stitching result using our method.</p>
+          <p style="text-align: center"><img src="result.jpeg" width="500" height="265" alt="stitching result"> </p>
+          <a href = Project.html><< BACK </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a>22Fall_330_FinalProject</a>
+  </div>
+
+</body>
+</html>
